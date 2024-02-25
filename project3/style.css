@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main
+{
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+    /* background-color: rgb(219, 25, 171); */
+    padding: 30px 60px;
+}
+#nav-part1{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+#nav-part2{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+#nav h3{
+    font-size: 22px;
+    font-weight: 600;
+}
+#nav h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+#nav h4{
+    font-size: 19px;
+    font-weight: 600;
+}
+#content{
+    margin-top: 100px;
+    padding: 40px 60px;
+    
+}
+#content h3{
+font-size: 30px;
+background-color: blanchedalmond;
+font-weight: 100;
+}
+#content h1{
+    background-color: brown;
+    letter-spacing: -3px;
+    width: 70%;
+    margin-top: 30px;
+font-size: 80px;
+line-height: 80px;
+font-weight: 500;
+}
+#case{
+    padding: 40px 60px;
+    margin-top: 150px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+#case h4{
+    font-size: 25px;
+    font-weight: 500;
+}
+#case h5{
+    font-size: 25px;
+    font-weight: 500;
+}
+#right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+#line{
+    height: 2px;
+    background-color: black;
+    width: 100px;
+}
+#project{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 60px;
+    gap: 40px;
+}
+.elem{
+    width: 50%;
+}
+.elem-img{
+    height: 500px;
+    width: 100%;
+    border-radius: 25px;
+    background-color: rgb(234, 210, 210);
+    background-size: cover;
+    background-position: center;
+}
+#img1{
+   background-image: url(https://w0.peakpx.com/wallpaper/900/686/HD-wallpaper-technology-asus-rog-3d-republic-of-gamers-thumbnail.jpg); 
+}
+#img2{
+    background-image: url(https://w0.peakpx.com/wallpaper/531/121/HD-wallpaper-3d-globe-digital-technology-concepts-global-networks-internet-concepts-data-transfer-thumbnail.jpg);
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.bottom i{
+padding: 15px 30px;
+font-size: 20px;
+border: 2px solid black;
+border-radius: 50px;
+}
+.bottom i:hover{
+background-color: black;
+color: white;
+
+}
+.bottom h2{
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.bottom h4{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(74, 74, 74);
+}
